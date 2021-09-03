@@ -1,6 +1,6 @@
 # Create a Resource Group
 resource "azurerm_resource_group" "test" {
-  name = "firstresource"
+  name = "vvk-lov-krshma-rg"
   location = var.location
   tags = {
     environment = var.environment
