@@ -1,6 +1,6 @@
 # Create a Resource Group
 resource "azurerm_resource_group" "test" {
-  name = "vivek-app-service-rg"
+  name = "firstresource"
   location = var.location
   tags = {
     environment = var.environment
