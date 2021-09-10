@@ -1,6 +1,6 @@
 # Create a Resource Group
 resource "azurerm_resource_group" "test" {
-  name = "vvk-lov-krshma-rg"
+  name = "terraform-rg"
   location = var.location
   tags = {
     environment = var.environment
